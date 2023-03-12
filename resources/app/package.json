@@ -1,0 +1,26 @@
+{
+  "name": "ohio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder",
+    "package": "electron-packager . --platform=win32 --arch=x64 --out=release-builds --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.3",
+    "electron-builder": "^24.0.0",
+    "electron-packager": "^17.1.1"
+  },
+  "build": {
+    "productName": "Ohio",
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
