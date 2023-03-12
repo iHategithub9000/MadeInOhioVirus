@@ -1,5 +1,7 @@
 # Installation Guide
 Type `git clone https://github.com/iHategithub9000/MadeInOhioVirus.git` in your terminal, or click Code > Download ZIP.
+Extract the zip if you downloaded one.
+Extract `exes.zip`.
 Make a folder on your desktop and put all the files inside it.  
 # Run guide
 Right click RUN AS ADMINISTRATOR.bat and click Run as Administrator.  
